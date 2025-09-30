@@ -1,0 +1,77 @@
+.block_vexturintroduction {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block_vexturintroduction .block-introduction-main-col-container i {
+    font-size: 1.44rem;
+}
+
+.block_vexturintroduction .block-introduction-main-col-container p {
+    font-weight: bold;
+}
+
+.block_vexturintroduction .block-introduction-main-col-container a {
+    font-weight: bold;
+}
+
+.block_vexturintroduction .icon-with-number {
+    display: flex;
+    align-items: center;
+}
+
+.block_vexturintroduction .icon-with-number i {
+    margin-right: 0.313rem;
+}
+
+.block-introduction.withicons-introduction {
+    text-align: center;
+}
+
+.block_vexturintroduction .block-introduction-main-col-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_vexturintroduction[style*="background-image"] * {
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.block_vexturintroduction[style*="background-image"] h1,
+.block_vexturintroduction[style*="background-image"] h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 840px) {
+    #block-region-content .block-introduction-inner-block {
+        border-right: 1px solid #ccc;
+        margin-bottom: 0;
+    }
+
+    #block-region-content .block-introduction-inner-block:last-child {
+        border-right: none;
+    }
+
+    #block-region-content .block_vexturintroduction .block-introduction-main-col-container p {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    #block-region-content .block_vexturintroduction .block-introduction-main-col-container {
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+.block-introduction-inner-block:last-child {
+    border-right: none;
+}
+
+@media (min-width: 992px) {
+    .block_vexturintroduction  .content {
+        text-align: center;
+        justify-content: center;
+    }
+}
